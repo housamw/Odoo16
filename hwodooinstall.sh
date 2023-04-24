@@ -387,3 +387,4 @@ fi
 echo "-----------------------------------------------------------"
 sudo ufw allow from any to any port 8069,8072 proto tcp
 sudo ufw enable
+sudo reboot
