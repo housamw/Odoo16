@@ -399,5 +399,5 @@ if [ $INSTALL_NGINX = "True" ]; then
   echo "Nginx configuration file: /etc/nginx/sites-available/$WEBSITE_NAME"
 fi
 echo "-----------------------------------------------------------"
-sudo ufw allow from any to any port 8069,8072 proto tcp
+sudo ufw allow from any to any port 8069,8072,21,22,5432,80,8080 proto tcp
 sudo ufw enable
